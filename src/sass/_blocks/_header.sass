@@ -1,0 +1,67 @@
+header
+	position: relative
+	height: 50px
+
+	nav
+	background: #212121
+	height: 50px
+	width: 100%
+	position: fixed
+	z-index: 5
+
+	.menu
+		list-style-type: none
+		display: flex
+		justify-content: space-between
+		margin: 0
+		padding: 13px 70px
+		&__item
+			padding-right: 40px
+			border-right: 2px dotted black
+			&:last-child
+				border-right: none
+		&__link
+			font-weight: 300
+			font-size: 15px
+			color: #FFFFFF
+			text-decoration: none
+.subheader
+	position: absolute
+	width: 100%
+	top: 50px
+	height: 84px
+	background: rgba(0, 0, 0, .6)
+	padding-top: 19px
+	&__call
+		font-weight: 300
+		font-size: 12px
+		color: #FFFFFF
+		opacity: .6
+	&__tel
+		text-decoration: none
+		color: #FFFFFF
+	&__btn
+		width: 172px
+		height: 46px
+		box-shadow: inset 0 -3px rgba(0, 0, 0, 0.12)
+		border-radius: 4px
+		background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+
+		font-weight: 400
+		font-size: 14px
+		text-align: center
+		text-transform: uppercase
+		color: #FFFFFF;
+		text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+
+
+.logo
+	min-width: 100%
+	&__img
+	&__descr
+		font-weight: 200
+		font-size: 13px
+		display: flex
+		color: #FFFFFF
+		opacity: .6
+		line-height: 24px
