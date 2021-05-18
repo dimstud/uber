@@ -1,3 +1,28 @@
 .auto
-	min-height: 895
-	background: url('../img/auto_bg.png') center (center/cover) no-repeat
+	position: relative
+	min-height: 895px
+	padding-top: 50px
+	padding-bottom: 137px
+	background: url('../img/mobile_bg.png') center (center/cover) no-repeat
+	&__img
+		position: relative
+		z-index: 2
+		display: block
+		margin: 40px auto 0px auto
+	&__desc
+		width: 327px
+		margin: 0 auto
+		font-weight: 300
+		font-size: 17px
+		line-height: 24px
+		text-align: center
+		color: #222222
+
+	.black
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 500px
+		z-index: 1
+		background: #070716
