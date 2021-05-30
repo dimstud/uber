@@ -79,7 +79,6 @@
 		&__block
 			flex-direction: column
 			align-items: center
-			margin-bottom: 90px
 		&__descr
 			margin-top: 25px
 
@@ -119,6 +118,9 @@
 				justify-content: center
 
 @media ( max-width: 767px )
+	.title
+		font-size: 25px
+
 	header
 		.menu
 			width: 50%
@@ -173,15 +175,51 @@
 		display: block
 
 	.subheader
+		padding-top: 13px
 		&__tel
 			display: block
-			margin-top: 10px
+			margin-top: 0
 			font-size: 16px
 			font-weight: 400
 			text-transform: uppercase
+			text-align: center
+		&__btn
+			display: block
+			margin: 0 auto
+			width: 200px
+			height: 40px
 
+	.promo
+		&__header
+			line-height: 45
 
+	.reasons
+		padding: 40px 0
+		&__block
+			width: 350px
+			margin-left: auto
+			margin-right: auto
+		&__title
+			text-align: center
+		&__text
+			text-align: center
 
+	.mobile
+		padding: 40px 0
+		&__item
+			margin-left: auto
+			margin-right: auto
+
+	.auto
+		min-height: 600px
+		padding: 40px 0
+
+	.capabilities
+		padding: 40px 0
+
+	.world
+		min-height: 450px
+		padding: 40px 0
 
 @media ( max-width: 575px )
 	nav
