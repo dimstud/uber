@@ -197,6 +197,7 @@
 		padding: 40px 0
 		&__block
 			width: 350px
+			min-height: 128px
 			margin-left: auto
 			margin-right: auto
 		&__title
@@ -222,6 +223,13 @@
 		padding: 40px 0
 
 @media ( max-width: 575px )
+
+	.leable
+		font-size: 11px
+	.title
+		margin-top: 16px
+		font-size: 16px
+
 	nav
 		height: 30px
 	header
@@ -229,6 +237,55 @@
 	.subheader
 		height: 60px
 		top: 30px
+		&__tel
+			font-size: 12px
+		&__btn
+			width: 110px
+			height: 22px
+			font-size: 10px
+
 		.logo
+			height: 15px
 			&__descr
 				display: none
+
+	.promo
+		min-height: 340px
+		padding-bottom: 34px
+		padding-top: 142px
+		&__title
+			font-size: 30px
+			line-height: 35px
+		&__subtitle
+			font-size: 20px
+			line-height: 23px
+		&__descr
+			display: none
+		&__btn
+			margin-top: 75px
+			width: 210px
+			height: 50px
+			font-size: 16px
+
+	.reasons
+		padding-top: 20px
+		padding-bottom: 38ыpx
+		&__block
+			width: 292px
+			&_mb
+				&:nth-child(1)
+					margin-bottom: 60px
+		&__round
+			width: 100px
+			height: 100px
+		&__descr
+			width: 100%
+			margin-left: 0
+		&__title
+			font-size: 16px
+			line-height: 21px
+			text-align: left
+		&__text
+			font-size: 15px
+			line-height: 21px
+			text-align: left
