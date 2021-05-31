@@ -222,6 +222,9 @@
 		min-height: 450px
 		padding: 40px 0
 
+
+
+
 @media ( max-width: 575px )
 
 	.leable
@@ -229,11 +232,19 @@
 	.title
 		margin-top: 16px
 		font-size: 16px
+	.subtitle
+		font-size: 14px
+		line-height: 21px
+		margin-top: 11px
 
 	nav
 		height: 30px
 	header
 		height: 30px
+		.menu
+			&__item
+				a
+					font-size: 10px
 	.subheader
 		height: 60px
 		top: 30px
@@ -272,9 +283,8 @@
 		padding-bottom: 38ыpx
 		&__block
 			width: 292px
-			&_mb
-				&:nth-child(1)
-					margin-bottom: 60px
+			&_mb-xs
+				margin-bottom: 60px
 		&__round
 			width: 100px
 			height: 100px
@@ -289,3 +299,73 @@
 			font-size: 15px
 			line-height: 21px
 			text-align: left
+
+	.mobile
+		padding-top: 25px
+		padding-bottom: 43px
+
+	.auto
+		min-height: 393px
+		background: #000000
+		padding-top: 27px
+		padding-bottom: 31px
+		.black
+			display: none
+		&__desc
+			width: 300px
+			position: relative
+			font-size: 17px
+			line-height: 24px
+			text-align: center
+			color: #FFFFFF
+			z-index: 5
+
+	.capabilities
+		padding-top: 22px
+		padding-bottom: 20px
+		&__title
+			font-size: 16px
+		&__desc
+			font-size: 14px
+			line-height: 16px
+			br
+				display: none
+		&__list
+			li
+				font-size: 14px
+				line-height: 16px
+				&::before
+					top: -3px
+
+	.world
+		min-height: 360px
+		&__link
+			margin-top: 211px
+
+	.footer
+		padding-top: 24px
+		padding-bottom: 30px
+		&__links
+			&_main
+				padding-left: 17px
+				padding-right: 17px
+				a
+					font-size: 14px
+					line-height: 14px
+			&_sub
+				flex-wrap: wrap
+				justify-content: center
+				a
+					margin: 5px 10px
+					&:nth-child(1)
+						margin-right: 76px
+			&__lang
+				margin-top: 10px
+		.wrapper
+			div
+				&:nth-child(1)
+					order: 2
+				&:nth-child(2)
+					order: 1
+				&:nth-child(3)
+					order: 3
